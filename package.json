@@ -1,0 +1,25 @@
+{
+  "name": "stringscroll",
+  "version": "1.0.0",
+  "description": "A little helper repository that can be used for things like typewriter or typing effects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClientCrash/stringscroll.git"
+  },
+  "keywords": [
+    "string",
+    "scroll",
+    "typewriter",
+    "writing"
+  ],
+  "author": "ClientCrash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClientCrash/stringscroll/issues"
+  },
+  "homepage": "https://github.com/ClientCrash/stringscroll#readme"
+}
