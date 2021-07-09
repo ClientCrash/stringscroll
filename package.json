@@ -1,6 +1,6 @@
 {
   "name": "stringscroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A little helper repository that can be used for things like typewriter or typing effects.",
   "main": "index.js",
   "scripts": {

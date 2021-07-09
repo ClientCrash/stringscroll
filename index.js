@@ -3,8 +3,7 @@ class ScrollableString{
         this.stringarray = string.split('')
         this.phase = "build"
         this.index = 0
-        
-    }
+        }
     getCurrent(){
         var i = 0;
         var res = ""
@@ -15,12 +14,8 @@ class ScrollableString{
         return res
     }
     next(){
-        if(this.index == this.stringarray.length){
-            if(this.phase==="build"){this.phase="destroy";this.index-=1;return}
-        }
-        if(this.index == 0){
-            if(this.phase==="destroy"){this.phase="build";this.index+=1;return}
-        }
+        if(this.index == this.stringarray.length){if(this.phase==="build"){this.phase="destroy";this.index-=1;return}}
+        if(this.index == 0){if(this.phase==="destroy"){this.phase="build";this.index+=1;return}}
         //the code above checks if a phase has reached its end and then witches to the next phase.
         if(this.phase==="build"){this.index+=1}
         if(this.phase==="destroy"){this.index-=1}
