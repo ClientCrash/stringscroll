@@ -6,10 +6,10 @@ class ScrollableString{
         
     }
     getCurrent(){
-        i = 0;
+        var i = 0;
         var res = ""
-        while(i<this.index+1){
-            res += stringarray[i]
+        while(i<this.index){
+            res += this.stringarray[i]
             i+=1
         }
         return res
