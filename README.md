@@ -2,7 +2,7 @@
 ![npm](https://img.shields.io/npm/v/stringscroll?style=flat-square)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/stringscroll?style=flat-square)   
 ![npm](https://img.shields.io/npm/dw/stringscroll?style=flat-square)  
-A little helper repository that can be used for things like typewriter or typing effects. 
+
 
 
 
@@ -11,14 +11,12 @@ const ScrollableString = require('stringscroll')
 var string1 = new ScrollableString("World! :)")
 
 
-console.log("Hello " + string1.getCurrent()) //get the current string1 ... this combines to Hello W
+console.log("Hello " + string1.getCurrent()) //get the current string
 
 string1.next() //scroll one step   ( "W" => "Wo" [...] => "World! :)"
 
-console.log("Hello " + string1.getCurrent()) //get the current string1 ... this combines to Hello Wo
+console.log("Hello " + string1.getCurrent()) //get the current string
 
-
-//Just use a loop :)
 
 ```
    
