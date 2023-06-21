@@ -1,10 +1,11 @@
 {
   "name": "stringscroll",
-  "version": "1.0.1",
-  "description": "A little helper repository that can be used for things like typewriter or typing effects.",
+  "version": "2.0.0",
+  "description": "A a tiny JavaScript project that lets you create a scrollable string.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,12 @@
     "string",
     "scroll",
     "typewriter",
-    "writing"
+    "writing",
+    "text",
+    "animation",
+    "effect",
+    "javascript",
+    "library"
   ],
   "author": "ClientCrash",
   "license": "MIT",
